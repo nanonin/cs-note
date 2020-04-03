@@ -15,7 +15,7 @@ docker commit -m="ubuntu nginx" -a="vvyun" 0b2ab724e6e5 custom/ubuntu:v1
 docker tag 0b2ab724e6e5 custom/ubuntu:v2
 ```
 
-## docker con
+## docker container
 ```
 docker ps -a
 docker run -it ubuntu /bin/bash
