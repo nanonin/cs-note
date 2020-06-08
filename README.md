@@ -31,3 +31,12 @@ docker import http://example.com/exampleimage.tgz example/imagerepo
 cat docker/ubuntu.tar | docker import - test/ubuntu:v1
 docker rm -f 0b2ab724e6e5
 ```
+### 
+-- docker 镜像配置
+docker-machine ssh default 
+
+sudo sed -i "s|EXTRA_ARGS='|EXTRA_ARGS='--registry-mirror=https://4rx2re3v.mirror.aliyuncs.com |g" /var/lib/boot2docker/profile
+
+exit
+
+docker-machine restart default
