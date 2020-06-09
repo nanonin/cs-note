@@ -32,6 +32,7 @@ cat docker/ubuntu.tar | docker import - test/ubuntu:v1
 docker rm -f 0b2ab724e6e5
 ```
 ### 
+```Shell
 -- docker 镜像加速配置
 #通过docker-machine进入docker环境
 docker-machine ssh default
@@ -41,3 +42,4 @@ sudo vi /var/lib/boot2docker/profile
 --registry-mirror https://docker.mirrors.ustc.edu.cn
 #重启docker服务 sudo /etc/init.d/docker restart 
 #或者重启VM：exit退出VM bash，在windows bash中执行 docker-machine restart
+```
