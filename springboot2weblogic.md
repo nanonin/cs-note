@@ -29,7 +29,10 @@ public class WebshellApplication  extends SpringBootServletInitializer implement
 
 }
 ```
-打包mvn package
+打包
+```Shell
+mvn package
+```
 添加weblogic.xml到war包的WEB-INF文件夹下
 ```Xml
 <?xml version="1.0" encoding="UTF-8"?>
