@@ -34,10 +34,10 @@ docker stop 0b2ab724e6e5
 
 docker restart 0b2ab724e6e5
 
-# run background 
+# run background
 docker run -itd --name ubuntu-test ubuntu /bin/bash
 # attach a shell
-docker attach 0b2ab724e6e5 
+docker attach 0b2ab724e6e5
 docker exec -it 0b2ab724e6e5 /bin/bash
 
 # export import
@@ -50,7 +50,7 @@ docker rm -f 0b2ab724e6e5
 ```
 
 ps docker 镜像加速配置(docker toolbox)
- 
+
 ```Shell
 #通过docker-machine进入docker环境
 docker-machine ssh default
@@ -60,8 +60,8 @@ sudo vi /var/lib/boot2docker/profile
 #在--label provider=virtualbox的下一行添加
 --registry-mirror https://docker.mirrors.ustc.edu.cn
 
-#重启docker服务 
-sudo /etc/init.d/docker restart 
+#重启docker服务
+sudo /etc/init.d/docker restart
 #或者重启VM：
 exit
 docker-machine restart

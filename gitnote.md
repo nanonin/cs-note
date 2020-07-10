@@ -1,4 +1,4 @@
-# 清除历史记录(慎用) 
+# 清除历史记录(慎用)
 
 ```Shell
 git checkout --orphan latest_branch
