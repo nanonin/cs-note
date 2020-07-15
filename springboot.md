@@ -1,4 +1,4 @@
-# spring boot web项目发布weblogic
+# spring boot webapplication to weblogic
 
 pom.xml添加
 打包方式war
