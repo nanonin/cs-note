@@ -1,10 +1,12 @@
-# spring boot webapplication to weblogic
+# spring boot
 
-pom.xml添加
-打包方式war
+## spring boot工程发布到weblogic
+
+pom.xml修改打包方式为war
 
 ```Xml
-    <packaging>war</packaging><!--<packaging>jar</packaging>-->
+    <packaging>war</packaging>
+    <!--<packaging>jar</packaging>-->
 ```
 
 添加依赖
@@ -17,19 +19,19 @@ pom.xml添加
     </dependency>
 ```
 
-修改入口application
+修改启动类
 
 ```Java
 @SpringBootApplication
-public class WebshellApplication  extends SpringBootServletInitializer implements WebApplicationInitializer {
+public class XxxApplication  extends SpringBootServletInitializer implements WebApplicationInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(WebshellApplication.class);
+        return application.sources(XxxApplication.class);
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(WebshellApplication.class, args);
+        SpringApplication.run(XxxApplication.class, args);
     }
 
 }
