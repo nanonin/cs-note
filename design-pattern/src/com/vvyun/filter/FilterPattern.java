@@ -1,5 +1,8 @@
 package com.vvyun.filter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FilterPattern {
     public static void main(String[] args) {
         List<Chicken> chickens = new ArrayList<>();
