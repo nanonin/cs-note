@@ -6,4 +6,4 @@
 
 ## 设计模式
 
-[design-pattern](https://github.com/vvyun/design-pattern.git)
+[design-pattern](./design-pattern/README.md)
