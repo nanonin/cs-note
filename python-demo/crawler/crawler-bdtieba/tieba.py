@@ -3,7 +3,7 @@
 贴吧爬虫
 author yun
 """
-from fourchan.tools import *
+from crawler4chan.tools import *
 
 cfile = open('config.ini')
 a = cfile.read()
