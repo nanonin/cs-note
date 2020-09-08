@@ -18,7 +18,7 @@
     
 - JUC、JMM核心知识点笔记
 
-   [思维导图](https://www.processon.com/mindmap/5eff01d4f346fb1ae5900c7d)
+   [思维导图](https://www.processon.com/view/5f2779360791291b9977c9a5#map)
 
 - 设计模式
 
