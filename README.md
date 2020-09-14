@@ -10,7 +10,7 @@
 ### 代码示例
 
 * [design-pattern](design-pattern/README.md)
-* [spring-cloud-demo](https://github.com/vvyun/spring-cloud-demo.git)
+* [spring-cloud-demo](https://github.com/nuagesnoirs/spring-cloud-demo.git)
 * [python-demo](python-demo/README.md)
 * [golang-demo](golang-demo/README.md)
 
