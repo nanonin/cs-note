@@ -66,3 +66,12 @@ sudo /etc/init.d/docker restart
 exit
 docker-machine restart
 ```
+
+## docker 安装centos7/python3/dlib 
+
+```
+docker pull centos:7
+docker start -it centos:7 /bin/bash
+
+```
+
