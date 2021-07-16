@@ -12,7 +12,7 @@
 * [design-pattern](design-pattern/README.md)
 * [spring-cloud-demo](https://github.com/nuagesnoirs/spring-cloud-demo.git)
 * [python-demo](python-demo/README.md)
-* [golang-demo](golang-demo/README.md)
+* [golang-demo](golang/README.md)
 
 ### java基础笔记 
     
