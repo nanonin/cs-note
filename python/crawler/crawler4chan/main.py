@@ -2,14 +2,14 @@
 # author vvyun
 import json
 
-from butipicture.tools import *
+from tools import *
 
 url = 'https://boards.4chan.org/'
 
 # thread name
 thread_names = ["a", "e", "ck"]
 # default a（animate)
-thread_name = thread_names[0]
+thread_name = thread_names[1]
 
 url_catalogs = url + thread_name + "/catalog"
 baseurl_threads = url + thread_name + "/thread/"

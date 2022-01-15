@@ -1,6 +1,6 @@
 # -*- coding=utf-8 -*-
 
-from butipicture.tools import *
+from tools import *
 
 file1 = open("image/html/186298068.html", "r", encoding="UTF-8")
 
